@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan My Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Plan My Day</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="photo-section">
+            <img src="https://tennews.in/wp-content/uploads/2024/01/AMRIT-UDYAN.webp" alt="Image 1">
+            <section class="search-section">
+                <form action="#">
+                    <div class="search-group">
+                        <label for="from">From:</label>
+                        <input type="text" id="from" name="from" placeholder="Enter starting destination">
+                    </div>
+                    <div class="search-group">
+                        <label for="to">To:</label>
+                        <input type="text" id="to" name="to" placeholder="Enter destination">
+                    </div>
+                    <div class="search-group">
+                        <label for="start-time">Start Time:</label>
+                        <input type="time" id="start-time" name="start-time">
+                    </div>
+                    <div class="search-group">
+                        <label for="end-time">End Time:</label>
+                        <input type="time" id="end-time" name="end-time">
+                    </div>
+                    <div class="search-group">
+                        <label for="budget">Budget:</label>
+                        <input type="number" id="budget" name="budget" placeholder="Enter budget">
+                    </div>
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+            
+        </section>
+        <div class="destination-container">
+            <h3>Explore Delhi</h3>
+            <p>Travel with us and see delhi at finest.</p>
+        </div>
+        
+        <div class="destination-row">
+            <div class="destination-item">
+                <img src="https://travellerscribe.com/wp-content/uploads/2023/07/Qutub-Minar-in-Delhi-Complex.webp" alt="qutub minar" style="width:100%">
+                <div class="destination-details">
+                    <h3>Qutub Minar</h3>
+                    <p class="price">Roundtrip from Rs79</p>
+                    <p>Description:Qutub Minar, a UNESCO World Heritage Site located in Delhi, India, is a towering symbol of Indo-Islamic architecture. Standing at 73 meters, it is the world's tallest brick minaret, built in the early 13th century by Qutb-ud-din Aibak. The intricate carvings and calligraphy on its sandstone surface showcase the rich heritage of the time..</p>
+                    <button class="buy-tickets-button">Buy Tickets</button>
+                </div>
+            </div>
+        
+            <div class="destination-item">
+                <img src="https://1.bp.blogspot.com/-az09PefXMpQ/UdRMg81w8QI/AAAAAAAAATg/tEFq4Pp9LRY/s575/lotus+temple.jpg" alt="lotus temple" style="width:100%">
+                <div class="destination-details">
+                    <h3>Lotus Temple</h3>
+                    <p class="price">One-way from Rs39</p>
+                    <p>Description: Lotus Temple, another architectural marvel in Delhi, is a Bahá'í House of Worship known for its distinctive lotus flower shape. Completed in 1986, this modern and awe-inspiring structure welcomes people of all faiths to pray and meditate in a serene environment. The Lotus Temple has become an iconic symbol of unity and religious diversity..</p>
+                    <button class="buy-tickets-button">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="newsletter">
+            <div class="boxi">
+              <h2>Get the best offers first!</h2>
+              <p>Join our newsletter.</p>
+              <label>E-mail</label>
+              <input class="email" type="text" placeholder="Your Email address">
+              <button type="button" class="subscribe">Subscribe</button>
+            </div>
+          </div>
+          <div class="contact-container">
+            <h2>Contact</h2>
+            <p>Let us plan your day!</p>
+            <i class="fa fa-map-marker"></i> New Delhi, India<br>
+            <i class="fa fa-phone"></i> Phone: +00 151515<br>
+            <i class="fa fa-envelope"></i> Email: mail@mail.com<br>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="contact-input" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="contact-input" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="contact-input" type="text" placeholder="Message" required name="Message"></p>
+                <p><button class="contact-button" type="submit">SEND MESSAGE</button></p>
+            </form>
+        </div>
+        
+    </main>
+</body>
+</html>
