@@ -1,0 +1,82 @@
+.itinerary-slider {
+    margin: 20px 0;
+  }
+  
+  .itinerary {
+    margin-bottom: 20px;
+  }
+  
+  .itinerary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .destination-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+  }
+  
+  .destination-image {
+    width: 100%;
+    height: auto;
+  }
+  .place {
+    margin: 0px; /* Adjust the margin as needed to decrease the space */
+  }
+  
+  h7{
+    font-family: "Arial", sans-serif;
+    color: #4caf50; 
+    text-align: center; 
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .slider-container {
+    position: relative;
+    width: 600px; /* Adjust container width */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .places-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .place {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  
+  .place img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
